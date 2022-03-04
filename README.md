@@ -21,7 +21,7 @@ This is a landing page created for a concept app called Clipboard which allows u
 
 ### Links
 
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://qymmore.github.io/clipboard-landing-page/)
 
 ## My process
 
