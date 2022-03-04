@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.header>div {
+    padding: 5%;
+    margin-top: -20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    box-sizing:border-box;
+}
+
+.clipboard-logo {
+    width: 120px;
+    height: 120px;
+    height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+.main-text {
+    font-size: 45px; 
+    font-weight: 600; 
+    color:hsl(210, 10%, 33%);
+}
+
+.header-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: hsl(201, 11%, 66%);
+    margin-top: -5px;
+}
+
+#download-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.7rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ios-button {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.ios-button:hover,
+.ios-button:active {
+  box-shadow: 0px 8px 8px -2px hsl(171, 73%, 78%);
+}
+
+.mac-button {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.mac-button:hover,
+.mac-button:active {
+  box-shadow: 0px 8px 8px -2px hsl(237, 51%, 84%);
+}
+
+#section-two {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-top: -8%;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    box-sizing:border-box;
+}
+
+#section-two h1 {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#section-two p {
+    color: hsl(201, 11%, 66%); 
+    margin-top: -5px; 
+    line-height: 25px; 
+    font-size: 15px;
+}
+
+#section-three {
+    margin-top: 30px;
+    display: flex;
+}
+
+.description-container {
+    margin-top: 70px;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.description-container div {
+    padding-bottom: 8px; 
+    line-height: 35px;
+}
+
+.description-container h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.description-container p {
+    color: hsl(201, 11%, 66%);
+    margin-top: -10px;
+}
+
+#section-four {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-top: 2%;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    box-sizing:border-box;
+}
+
+#section-four h1 {
+    color: hsl(210, 10%, 33%);
+}
+
+#section-four p {
+    color: hsl(201, 11%, 66%);
+}
+
+#section-four img {
+    width: 70%;
+    margin-top: 60px;
+}
+
+#section-five {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-top: -120px;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    box-sizing:border-box;
+}
+
+#section-five h1 {
+    color: hsl(210, 10%, 33%);
+}
+
+#section-five p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+#tools-container h2 {
+    color:hsl(210, 10%, 33%);
+}
+
+#tools-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    margin-right: 100px;
+    gap: 60px;
+}
+
+#section-six {
+    display: flex;
+    width: 250px;
+    height: 40px;
+    gap: 100px;
+    margin-left: 150px;
+}
+
+#section-seven {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin-top: 50px;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    box-sizing:border-box;
+}
+
+#section-seven h1 {
+    color: hsl(210, 10%, 33%);
+}
+
+#section-seven p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(220, 18%, 97%);
+}
+
+.nav-logo {
+    width: 3rem;
+    padding-left: 4em;
+}
+
+.nav-footer {
+    color: #8d8e92;
+    padding: 0 2rem;
+    padding-bottom: .5rem;
+    text-decoration: none;
+}
+
+.nav-footer:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+#nav {
+    padding-right: 15rem;
+    margin-top: 35px;
+    height: 60px;
+    line-height: 25px;
+    gap: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.social-media {
+    padding-left: 30em;
+    margin-left: 80px;
+}
+
+.icon-social {
+    margin: 0 1rem;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-social:hover {
+    fill: hsl(171, 66%, 44%);
+}
+
+.attribution {
+    text-align: center;
+    gap: 10px;
+}
+
